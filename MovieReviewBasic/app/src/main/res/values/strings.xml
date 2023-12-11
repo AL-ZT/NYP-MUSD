@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieRater</string>
+    <string name="movieName">Name</string>
+    <string name="movieDesc">Description</string>
+    <string name="movieTitle">Title : </string>
+    <string name="movieOverview">Overview : </string>
+    <string name="movieLang">Language</string>
+    <string name="movieReleaseDate">Release Date</string>
+    <string name="restrictchkbx">Not suitable for all audience</string>
+    <string name="addMovie">Add Movie</string>
+    <string name="enterReview">Enter your review for the movie :</string>
+    <string name="moviesummary">Share your view on the show</string>
+</resources>

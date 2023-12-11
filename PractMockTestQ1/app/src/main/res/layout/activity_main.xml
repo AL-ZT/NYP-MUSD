@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter your name" android:id="@+id/editName"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone Number"/>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter your phone number" android:inputType="phone" android:id="@+id/editPhone"/>
+
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/selectGender">
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male"/>
+        <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female"/>
+    </RadioGroup>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Register" android:onClick="register"/>
+</LinearLayout>

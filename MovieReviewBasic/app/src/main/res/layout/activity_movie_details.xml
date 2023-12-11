@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0.25">
+        <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/movie" android:contentDescription="movieImage" />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/movieTitle" android:elegantTextHeight="true" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/insertMovieTitle" android:elegantTextHeight="true" android:textSize="20sp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/movieOverview" android:elegantTextHeight="true"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/insertMovieOverview" android:elegantTextHeight="true" android:textSize="20sp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Language : " android:elegantTextHeight="true"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/insertMovieLanguage" android:elegantTextHeight="true" android:textSize="20sp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Release Date :" android:elegantTextHeight="true"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/insertMovieReleaseDate" android:elegantTextHeight="true" android:textSize="20sp" />
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Suitable for children below 12 : " android:elegantTextHeight="true"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/insertMovieSuitability" android:elegantTextHeight="true" android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
+

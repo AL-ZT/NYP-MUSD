@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MovieRater</string>
+    <string name="landingPage_NoMovie">You have not added a movie\nLong Press me to add a movie</string>
+    <string name="movieName">Name</string>
+    <string name="movieDesc">Description</string>
+    <string name="movieLang">Language</string>
+    <string name="movieReleaseDate">Release Date</string>
+    <string name="restrictChkbx">Not suitable for all audience</string>
+    <string name="movieTitle">Title :</string>
+    <string name="movieOverview">Overview :</string>
+    <string name="movieSummary">Share your view on the show</string>
+    <string name="enterReview">Enter your review for the movie :</string>
+</resources>
